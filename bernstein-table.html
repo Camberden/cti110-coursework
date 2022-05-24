@@ -7,6 +7,72 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Temperatures</title>
+	<style>
+		table {
+			font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+			border: solid cornflowerblue 3px;
+			text-align: center;
+		}
+
+		th,
+		td {
+			border: solid lightblue 3px;
+			text-align: center;
+		}
+
+		tbody>tr>th {
+			background-color: grey;
+			border-bottom: solid blue 10px;
+			font-weight: normal
+		}
+
+		thead>tr>th {
+			border: solid blueviolet 2px;
+			font-family: Georgia, 'Times New Roman', Times, serif;
+			background-color: lightgrey;
+			color: brown;
+		}
+
+		tfoot>tr>td {
+			font-weight: bold;
+			background-color: lightsalmon;
+			color: greenyellow;
+		}
+
+		.low-temp {
+			background-color: azure;
+			color: aqua;
+			font-weight: bold;
+		}
+
+		.high-temp {
+			background-color: lightcoral;
+			color: orange;
+			font-weight: bold;
+		}
+
+		.month {
+			text-align: left;
+		}
+
+		caption {
+			font-style: italic;
+			font-family: Georgia, 'Times New Roman', Times, serif;
+		}
+
+		ul {
+			list-style-type: none;
+			padding: 0;
+		}
+
+		h1 {
+			color: purple;
+		}
+
+		h2 {
+			color: violet;
+		}
+	</style>
 
 </head>
 
@@ -19,29 +85,105 @@
 		<nav>
 			<h2>Navigation</h2>
 			<ul style="list-style-type: none;">
-				<li><a href="#nc-temps">About</a></li>
-				<li><a href="#temp-averages">Asheville Temperatures</a></li>
+				<li><a href="#about-avl-temp">About</a></li>
+				<li><a href="#avl-temp-averages">Asheville Temperatures</a></li>
 			</ul>
 		</nav>
 
 		<main>
 
-			<section id="nc-temps">
-				<table
-					style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; border:3px solid cornflowerblue; width: 50%;">
-					<th style="border: solid blue;">
-					<td style="border: solid lightblue;"></td>
-					</th>
-
-				</table>
-				<th>
-				<td></td>
-				</th>
-
+			<section id="about-avl-temp">
+				<p>Asheville's climate is a draw for many. Winters bring snowfall levels well below the national
+					average. The average high temperature in January is 48 degrees Fahrenheit, with an average low of 28
+					degrees Fahrenheit. Though temperatures do drop below freezing, winters are generally mild.<br><br>
+					In summer, expect warm, humid conditions. During July, the hottest month of the year, average highs
+					reach 83 degrees. Summer is also the wettest time of year, with a rainy season that lasts from June
+					through September.</p>
 			</section>
 
-			<section id="temp-averages">
+			<section id="avl-temp-averages">
+				<table>
+					<caption>Table Detailing Average Temperatures of Asheville, NC between 1985 & 2015</caption>
+					<tr>
+						<th>MONTH</th>
+						<th>High ºF</th>
+						<th>Low ºF</th>
+					</tr>
+					<tr>
+						<td colspan="3">Winter Season</td>
+					</tr>
+					<tr>
+						<td>December</td>
+						<td>50</td>
+						<td>30</td>
+					</tr>
+					<tr>
+						<td>January</td>
+						<td>48</td>
+						<td>27</td>
+					</tr>
+					<tr>
+						<td>February</td>
+						<td>52</td>
+						<td>30</td>
+					</tr>
+					<tr>
+						<td colspan="3">Spring Season</td>
+					</tr>
+					<tr>
+						<td>March</td>
+						<td>59</td>
+						<td>36</td>
+					</tr>
+					<tr>
+						<td>April</td>
+						<td>68</td>
+						<td>43</td>
+					</tr>
+					<tr>
+						<td>May</td>
+						<td>75</td>
+						<td>52</td>
+					</tr>
+					<tr>
+						<td colspan="3">Summer Season</td>
+					</tr>
+					<tr>
+						<td>June</td>
+						<td>82</td>
+						<td>60</td>
+					</tr>
+					<tr>
+						<td>July</td>
+						<td>84</td>
+						<td>64</td>
+					</tr>
+					<tr>
+						<td>August</td>
+						<td>83</td>
+						<td>63</td>
+					</tr>
+					<tr>
+						<td colspan="3">Autumn Season</td>
+					</tr>
+					<tr>
+						<td>September</td>
+						<td>77</td>
+						<td>57</td>
+					</tr>
+					<tr>
+						<td>October</td>
+						<td>68</td>
+						<td>44</td>
+					</tr>
+					<tr>
+						<td>November</td>
+						<td>59</td>
+						<td>35</td>
+					</tr>
 
+
+				</table>
 
 			</section>
 		</main>
