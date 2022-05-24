@@ -21,8 +21,8 @@
 		}
 
 		tbody>tr>th {
-			background-color: grey;
-			border-bottom: solid blue 10px;
+			background-color: lightgrey;
+			border-bottom: solid lightsteelblue 10px;
 			font-weight: normal
 		}
 
@@ -30,24 +30,24 @@
 			border: solid blueviolet 2px;
 			font-family: Georgia, 'Times New Roman', Times, serif;
 			background-color: lightgrey;
-			color: brown;
+			color: blue;
 		}
 
 		tfoot>tr>td {
 			font-weight: bold;
-			background-color: lightsalmon;
-			color: greenyellow;
+			background-color: blue;
+			color: lightsteelblue;
 		}
 
 		.low-temp {
 			background-color: azure;
-			color: aqua;
+			color: cadetblue;
 			font-weight: bold;
 		}
 
 		.high-temp {
-			background-color: lightcoral;
-			color: orange;
+			background-color: lightpink;
+			color: orangered;
 			font-weight: bold;
 		}
 
@@ -66,11 +66,11 @@
 		}
 
 		h1 {
-			color: purple;
+			color: blue;
 		}
 
 		h2 {
-			color: violet;
+			color: purple;
 		}
 	</style>
 
@@ -79,22 +79,24 @@
 <body style="font-family:'Courier New', Courier, monospace; background-color: gainsboro;">
 	<div>
 		<header id="top">
-			<h1 style="color:blue; font-size: 40px;">Monthly Temperatures</h1>
+			<h1>Monthly Temperatures</h1>
+			<h2>Asheville, North Carolina</h2>
 		</header>
 
 		<nav>
 			<h2>Navigation</h2>
-			<ul style="list-style-type: none;">
+			<ul>
 				<li><a href="#about-avl-temp">About</a></li>
 				<li><a href="#avl-temp-averages">Asheville Temperatures</a></li>
+				<li><a href="https://www.ashevillenc.gov/" target="_blank">City of Asheville Website</a></li>
 			</ul>
 		</nav>
 
 		<main>
-
 			<section id="about-avl-temp">
-				<p>Asheville's climate is a draw for many. Winters bring snowfall levels well below the national
-					average. The average high temperature in January is 48 degrees Fahrenheit, with an average low of 28
+				<p>The City of Asheville in Western North Carolina has a
+					climate that is a draw for many. Winters bring snowfall levels well below the national
+					average. The average high temperature in January is 48 degrees Fahrenheit, with an average low of 27
 					degrees Fahrenheit. Though temperatures do drop below freezing, winters are generally mild.<br><br>
 					In summer, expect warm, humid conditions. During July, the hottest month of the year, average highs
 					reach 83 degrees. Summer is also the wettest time of year, with a rainy season that lasts from June
@@ -104,90 +106,97 @@
 			<section id="avl-temp-averages">
 				<table>
 					<caption>Table Detailing Average Temperatures of Asheville, NC between 1985 & 2015</caption>
-					<tr>
-						<th>MONTH</th>
-						<th>High ºF</th>
-						<th>Low ºF</th>
-					</tr>
-					<tr>
-						<td colspan="3">Winter Season</td>
-					</tr>
-					<tr>
-						<td>December</td>
-						<td>50</td>
-						<td>30</td>
-					</tr>
-					<tr>
-						<td>January</td>
-						<td>48</td>
-						<td>27</td>
-					</tr>
-					<tr>
-						<td>February</td>
-						<td>52</td>
-						<td>30</td>
-					</tr>
-					<tr>
-						<td colspan="3">Spring Season</td>
-					</tr>
-					<tr>
-						<td>March</td>
-						<td>59</td>
-						<td>36</td>
-					</tr>
-					<tr>
-						<td>April</td>
-						<td>68</td>
-						<td>43</td>
-					</tr>
-					<tr>
-						<td>May</td>
-						<td>75</td>
-						<td>52</td>
-					</tr>
-					<tr>
-						<td colspan="3">Summer Season</td>
-					</tr>
-					<tr>
-						<td>June</td>
-						<td>82</td>
-						<td>60</td>
-					</tr>
-					<tr>
-						<td>July</td>
-						<td>84</td>
-						<td>64</td>
-					</tr>
-					<tr>
-						<td>August</td>
-						<td>83</td>
-						<td>63</td>
-					</tr>
-					<tr>
-						<td colspan="3">Autumn Season</td>
-					</tr>
-					<tr>
-						<td>September</td>
-						<td>77</td>
-						<td>57</td>
-					</tr>
-					<tr>
-						<td>October</td>
-						<td>68</td>
-						<td>44</td>
-					</tr>
-					<tr>
-						<td>November</td>
-						<td>59</td>
-						<td>35</td>
-					</tr>
-
-
+					<thead>
+						<tr>
+							<th class="month">MONTH</th>
+							<th>High ºF</th>
+							<th>Low ºF</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th colspan="3">Winter Season</td>
+						</tr>
+						<tr>
+							<td class="month">December</td>
+							<td>50</td>
+							<td>30</td>
+						</tr>
+						<tr>
+							<td class="month">January</td>
+							<td>48</td>
+							<td class="low-temp">27</td>
+						</tr>
+						<tr>
+							<td class="month">February</td>
+							<td>52</td>
+							<td>30</td>
+						</tr>
+						<tr>
+							<th colspan="3">Spring Season</td>
+						</tr>
+						<tr>
+							<td class="month">March</td>
+							<td>59</td>
+							<td>36</td>
+						</tr>
+						<tr>
+							<td class="month">April</td>
+							<td>68</td>
+							<td>43</td>
+						</tr>
+						<tr>
+							<td class="month">May</td>
+							<td>75</td>
+							<td>52</td>
+						</tr>
+						<tr>
+							<th colspan="3">Summer Season</td>
+						</tr>
+						<tr>
+							<td class="month">June</td>
+							<td>82</td>
+							<td>60</td>
+						</tr>
+						<tr>
+							<td class="month">July</td>
+							<td class="high-temp">84</td>
+							<td>64</td>
+						</tr>
+						<tr>
+							<td class="month">August</td>
+							<td>83</td>
+							<td>63</td>
+						</tr>
+						<tr>
+							<th colspan="3">Autumn Season</td>
+						</tr>
+						<tr>
+							<td class="month">September</td>
+							<td>77</td>
+							<td>57</td>
+						</tr>
+						<tr>
+							<td class="month">October</td>
+							<td>68</td>
+							<td>44</td>
+						</tr>
+						<tr>
+							<td class="month">November</td>
+							<td>59</td>
+							<td>35</td>
+						</tr>
+					</tbody>
+					<tfoot>
+						<tr>
+							<td class="month">Average</td>
+							<td>67</td>
+							<td>45</td>
+						</tr>
+					</tfoot>
 				</table>
-
 			</section>
 		</main>
-
 </body>
 
 </html>
