@@ -1,0 +1,124 @@
+body {
+	font-family: 'Courier New', Courier, monospace;
+	background-color: gainsboro;
+	}
+	
+	header {
+	background-color: lightsteelblue;
+	font-size: 25px;
+	color: darkmagenta;
+	text-align: center;
+	padding: 5px;
+	margin-bottom: 0 auto;
+	}
+	
+	h1 {
+	color: darkviolet;
+	font-size: 40px;
+	}
+	
+	h2 {
+	color: deeppink;
+	}
+	
+	ul {
+	list-style-type: none;
+	}
+	
+	.white {
+	color: white;
+	}
+	
+	.fctr {
+	text-align: center;
+	background-color: lightsteelblue;
+	}
+
+	footer {
+		clear: both;
+		padding-bottom: 5px;
+	}
+	
+	caption {
+	color: lightslategrey;
+	font-size: sm
+	}
+
+	table {
+	border: 3px solid magenta;
+	width: 600px;
+	float: left;
+
+	}
+	
+	thead>tr>th {
+	background-color: purple;
+	color: salmon;
+	}
+	
+	tr,
+	td {
+	border: 1px solid slateblue;
+	color: rebeccapurple;
+	}
+	
+	figure {
+		margin-right: 0 auto;
+	}
+
+	img {
+		border: lightpink;
+	}
+
+	nav {
+		width: 15%;
+		float: left;
+	}
+	
+	nav > ul {
+		padding: 0;
+		font-size: medium;
+	}
+	
+	label {
+		font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		vertical-align: middle;
+		width: 100%;
+	}
+	
+	legend {
+		background-color: lightblue;
+		color: red;
+		font-family: 'Courier New', Courier, monospace;
+	}
+	
+	button {
+		background-color: lightpink;
+		color: rebeccapurple;
+		font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	}
+
+	.container {
+		background-color: rgb(207, 214, 223);
+		color: black;
+		margin: 0 auto;
+		padding: 10px 5px;
+		width: 1200px;
+	}
+
+	#summary {
+		float: right;
+		width: 80%;
+	}
+
+	#dc {
+		width:100%;
+		display: inline-table;
+		float: right;
+		position: relative;
+	}
+
+	input, select {
+		width:25%;
+		margin-right: 75%;
+	}
