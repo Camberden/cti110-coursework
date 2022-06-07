@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<!-- NAME: CHRISTIAN BERNSTEIN -->
+<!-- CLASS SECTION: CTI:110 SECTION 0002 -->
+
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="bernstein-style.css">
+	<title>Event Form DD</title>
+
+</head>
+
+<body>
+	<div>
+		<header>
+			<h1>Calculate Cost of Tickets</h1>
+		</header>
+		<br>
+		<main>
+			<form action="bernstein-final-form.html" method="GET">
+				<fieldset>
+					<legend>Attendee Information</legend>
+					<label for="name">Name:</label>
+					<input type="text" id="name" name="attendee">
+					<label for="phone">Phone Number:</label>
+					<input type="tel" id="phone" name="phone">
+				</fieldset>
+				<br>
+				<fieldset>
+					<legend>Tickets Needed</legend>
+					<label for="adult">How Many Adults?</label>
+					<input type="number" id="adult" name="adultTickets" min="1" max="9" value="1">
+					<label for="child">How Many Children?</label>
+					<input type="number" id="child" name="childTickets" max="9" value="0">
+				</fieldset>
+				<br>
+				<fieldset>
+					<legend>For Which Date?</legend>
+					<label for="date">Date List</label>
+					<select name="date" id="date">
+						<option value="01-14-2022">January 14th, 2022</option>
+						<option value="01-15-2022">January 15th, 2022</option>
+						<option value="01-16-2022">January 16th, 2022</option>
+						<option value="01-18-2022">January 18th, 2022</option>
+						<option value="01-20-2022">January 20th, 2022</option>
+						<option value="01-25-2022">January 25th, 2022</option>
+						<option value="01-27-2022">January 27th, 2022</option>
+						<option value="01-28-2022">January 28th, 2022</option>
+						<option value="01-29-2022">January 29th, 2022</option>
+
+					</select>
+				</fieldset>
+				<br>
+				<button type="submit">Submit</button>
+			</form>
+		</main>
+		<br>
+		<footer class="fctr">
+			<a href="bernstein-final-lp.html">Return to Main Page</a>
+			<p>&copy; 2022 BERNSTEIN-CUEVAS</p>
+		</footer>
+	</div>
+
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+body {
+font-family: 'Courier New', Courier, monospace;
+background-color: gainsboro;
+}
+
+header {
+background-color: lightsteelblue;
+font-size: 25px;
+color: darkmagenta;
+text-align: center;
+padding: 5px;
+margin-bottom: 0 auto;
+}
+
+h1 {
+color: darkviolet;
+font-size: 40px;
+}
+
+h2 {
+color: deeppink;
+}
+
+ul {
+list-style-type: none;
+}
+
+.white {
+color: white;
+}
+
+.fctr {
+text-align: center;
+background-color: inherit;
+}
+
+caption {
+color: lightslategrey;
+font-size: smaller;
+}
+
+table {
+border: 3px solid magenta;
+}
+
+thead>tr>th {
+background-color: purple;
+color: salmon;
+}
+
+tr,
+td {
+border: 1px solid slateblue;
+color: rebeccapurple;
+}
+
+img {
+border: lightpink;
+}
+
+nav > ul {
+padding: 0;
+font-size: medium;
+}
+
+label {
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+legend {
+	background-color: lightblue;
+	color: red;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+button {
+	background-color: lightpink;
+	color: rebeccapurple;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
